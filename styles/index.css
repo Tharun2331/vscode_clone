@@ -1,0 +1,287 @@
+body
+{
+background-color: #0e0e0e;
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.content{
+  color: white; 
+  display: flex;
+  justify-content: space-b;
+  
+}
+
+.link {
+  color: #9ba3b4;
+  transition: 0.5s;
+}
+
+.link:hover{
+  color: white;
+}
+
+
+.navbar{
+  display: inline;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  vertical-align: baseline;
+  
+}
+
+
+
+.link{
+  padding-left: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.search{
+  margin-right: 10px;
+  background-color: #0e0e0e;
+  border-radius: 5px;
+  border-color: rgba(255,255,255,0.12);
+  height: 40px;
+  padding-left: 40px;
+
+
+  
+}
+
+.vsc{
+  font-size: 20px;
+  font-weight:bold;
+  cursor: pointer;
+
+}
+
+.vscodeimg{
+  height: 30px;
+  padding-right:15px;
+  
+}
+
+.sub-heading {
+  color:#9ba3b4;
+  width: 50%;
+  margin-left: 550px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.version-link{
+  color: rgb(60, 184, 233);
+  margin-right: 10px;
+
+  
+
+}
+
+.Download-btn {
+height: 50px;
+width: 130px;
+border-radius: 8px;
+background-color: #0078d4;
+color: white;
+font-weight: bold;
+font-size: large;
+cursor: pointer;
+transition: 0.5s;
+}
+
+
+.Download-btn:hover {
+  background-color: #005ba4;
+} 
+
+.ide-image{
+  height: 600px;
+  padding-right: 200px;
+
+}
+
+.main-page{
+display: flex;
+margin-top: 50px;
+justify-content: space-between;
+}
+
+.left-content{
+  display: block;
+  padding-left: 100px; 
+  margin-top: 20px;
+}
+
+.first-heading{
+  font-size: 22px;
+  font-weight: 600;
+  color: #9ba3b4;
+  border-radius: 32px;
+  border-style: 1px solid;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  height: 40px;
+  background-color:  rgba(255, 255, 255, 0.04);
+  width: max-content;
+  margin-bottom: 8px;
+  border-color: rgba(255, 255, 255, 0.07);
+  width: 450px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.second-heading {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.download-windows-btn{
+  border-radius: 4px;
+  font-size: 1.4rem;
+  padding: 12px 24px;
+  background-color: #0078d4;
+  outline-offset: 1px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: background-color 0.5s ;
+  cursor: pointer;
+  width: 300px;
+  height: 80px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.download-windows-btn:hover{
+  background-color: #005ba4;
+}
+
+.main-links,a{
+  margin-top: 20px;
+  color:#4daafc;
+}
+
+.sec-links {
+  margin-top: 20px;
+  color:#9ba3b4;
+  width:500px;
+}
+
+
+.copilot-section {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.copilot-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.copilot-description {
+  font-size: 20px;
+  font-weight: 400;
+  width: 450px;
+  color: #9ba3b4;
+
+}
+
+.copilot-link {
+  display: inline-block;
+  font-size: 18px;
+  color: #4daafc;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 4px;
+
+}
+
+.copilot-link:hover {
+  color: #0078d4;
+}
+
+.copilot-feature {
+  font-size: 18px;
+  color: #9ba3b4;
+  width: 420px; 
+  margin-bottom: 20px;
+
+}
+
+.copilot-inline-link {
+  color: #4daafc;
+  text-decoration: none;
+}
+
+.copilot-inline-link:hover {
+  color: #0078d4;
+}
+
+.copilot-image {
+  height: 600px;
+  padding-right:70px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+footer.footer {
+  background-color: #0e0e0e;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-link {
+  color: #9ba3b4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.footer-icon {
+  height: 24px;
+}
+
+.footer-text-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-text-link {
+  color: #9ba3b4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-text-link:hover {
+  color: white;
+}
+
+.footer-right-icon {
+  display: flex;
+}
